@@ -25,7 +25,7 @@ body{
     padding: 5px;
     width: 300px;
     height: 100px;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 20px;
     
 }
@@ -33,13 +33,14 @@ body{
 #menu{
     font-size: 150%;
     letter-spacing: 4px;
+    margin-right: 70px;
 }
 
 #menu li{
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-    margin-top: 30px;
+    margin-right: 25px;
+    margin-top: 50px;
     color: #282872;
 }
 
@@ -50,6 +51,9 @@ body{
 
 #header_image #menu{
     line-height: 75px;
+}
+.active{
+    border-bottom: 1px solid #3953a4;
 }
 #menu a:hover{
     border-bottom: 1px solid #3953a4;
@@ -73,4 +77,33 @@ hr{
     height: 100%;
     background-size: cover;
     position: relative;
+}
+
+/*Slogan box*/
+
+.slogan-box{
+    margin: 150px 10% 0 0;
+    background-color: #fbfaf3c5;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+.slogan-box > h2{
+    color: #3953a4;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.slogan-box > ul > h3{
+    margin-top: 20px;
+    color: #0c0d7d;
+    text-transform: uppercase;
+}
+.slogan-box > ul > li{
+    margin-top: 15px;
+    color:#3953a4;
+    text-transform: uppercase;
 }
