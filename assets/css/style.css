@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Noto+Sans:ital@1&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body{
-    background-color: #ffffff;
+    background-color:#FBFAF3;
     font-family: DM Sans, Noto Sans;
     font-weight : 300;
 }
@@ -47,4 +52,17 @@ hr{
     border-style: inset;
     border-width: 2px;
     width: 100%;
+}
+/*hero image*/
+#hero-outer{
+    height: 920px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#hero-image{
+    background: url('../images/pexels-thirdman-5582597.jpg') no-repeat center center;
+    height: 100%;
+    background-size: cover;
+    position: relative;
 }
