@@ -95,15 +95,23 @@ hr{
     color: #3953a4;
     text-transform: uppercase;
     text-align: right;
+    font-size: 23px;
 }
 
 .slogan-box > ul > h3{
     margin-top: 20px;
     color: #0c0d7d;
     text-transform: uppercase;
+    font-size: 20px;
 }
 .slogan-box > ul > li{
     margin-top: 15px;
     color:#3953a4;
     text-transform: uppercase;
+    font-size: 15px;
+}
+/*About us section*/
+.about-us{
+    height:100%;
+    width:100%;
 }
