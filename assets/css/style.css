@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Noto+Sans:ital@1&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: DM Sans, Noto Sans;
+    font-weight : 300;
+}
+/*header*/
+
+#header_image{
+    float: left;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+#menu{
+    font-size: 150%;
+    letter-spacing: 4px;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #282872;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#header_image #menu{
+    line-height: 75px;
+}
+#menu a:hover{
+    border-bottom: 1px solid #3953a4;
+}
+
+hr{
+    display: block;
+    border-style: inset;
+    border-width: 2px;
+    width: 100%;
+}
