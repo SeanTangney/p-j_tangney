@@ -1,42 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&family=Noto+Sans:ital@1&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
-    background-color:#FBFAF3;
+
+body {
+    background-color: #FBFAF3;
     font-family: DM Sans, Noto Sans;
-    font-weight : 300;
-}
-/*header*/
-.header{
-    text-align: center;
-    background:#FBFAF390;
-    z-index: 1000;
-    width: 100%;
-    height: 150px;   
-     
+    font-weight: 300;
 }
 
-#header_image{
+/*header*/
+.header {
+    text-align: center;
+    background: #FBFAF390;
+    z-index: 1000;
+    width: 100%;
+    height: 150px;
+
+}
+
+#header_image {
     float: left;
     padding: 5px;
     width: 300px;
     height: 100px;
     margin-left: 70px;
     margin-top: 20px;
-    
+
 }
 
-#menu{
+#menu {
     font-size: 150%;
     letter-spacing: 4px;
     margin-right: 70px;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
@@ -44,44 +46,48 @@ body{
     color: #282872;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#header_image #menu{
+#header_image #menu {
     line-height: 75px;
 }
-.active{
-    border-bottom: 1px solid #3953a4;
-}
-#menu a:hover{
+
+.active {
     border-bottom: 1px solid #3953a4;
 }
 
-hr{
+#menu a:hover {
+    border-bottom: 1px solid #3953a4;
+}
+
+hr {
     display: block;
     border-style: inset;
     border-width: 2px;
     width: 100%;
 }
+
 /*hero image*/
-#hero-outer{
+#hero-outer {
     height: 920px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-#hero-image{
+
+#hero-image {
     background: url('../images/pexels-thirdman-5582597.jpg') no-repeat center center;
-    height: 100%;
+    height: 900px;
     background-size: cover;
     position: relative;
 }
 
 /*Slogan box*/
 
-.slogan-box{
+.slogan-box {
     margin: 150px 10% 0 0;
     background-color: #fbfaf3c5;
     max-width: 300px;
@@ -91,35 +97,39 @@ hr{
     left: 10%;
     padding: 30px;
 }
-.slogan-box > h2{
+
+.slogan-box>h2 {
     color: #3953a4;
     text-transform: uppercase;
     text-align: right;
     font-size: 23px;
 }
 
-.slogan-box > ul > h3{
+.slogan-box>ul>h3 {
     margin-top: 20px;
     color: #0c0d7d;
     text-transform: uppercase;
     font-size: 20px;
 }
-.slogan-box > ul > li{
+
+.slogan-box>ul>li {
     margin-top: 15px;
-    color:#3953a4;
+    color: #3953a4;
     text-transform: uppercase;
     font-size: 15px;
 }
+
 /*About us section*/
-#about-us{
+#about-us {
     height: 550px;
-    width:50%;
+    width: 50%;
     margin-top: 0;
     background-color: #FBFAF3;
     float: right;
     margin-right: 70px;
 }
-#about-us-text > h2{
+
+#about-us-text>h2 {
     color: #0c0d7d;
     text-transform: uppercase;
     text-align: right;
@@ -127,23 +137,48 @@ hr{
     margin-right: 15%;
     font-size: 30px;
 }
-#about-us-text > p {
+
+#about-us-text>p {
     margin-top: 15px;
-    color:#3953a4;
+    color: #3953a4;
     text-transform: uppercase;
     font-size: 15px;
     padding: 20px;
     text-align: right;
 }
 
-#logo{
+#logo {
     width: 33%;
     height: 550px;
     float: left;
     padding: 30px 100px;
 }
 
-#logo > img{
+#logo > img {
     width: 90%;
     height: 80%;
 }
+
+/*Footer*/
+
+
+.social{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+    border-top: 2px solid #0c0d7d;
+    background-color: #3953a4;
+}
+.social li {
+    display: inline;
+}
+
+/* .social i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #282872;
+} */
