@@ -13,7 +13,7 @@ body {
 }
 
 /*header*/
-.header {
+header {
     text-align: center;
     background: #FBFAF390;
     z-index: 1000;
@@ -234,10 +234,14 @@ footer>.homebond>img {
 
 
     #menu li {
-        font-size: 60%;
+        font-size: 50%;
         letter-spacing: 3px;
     }
    
+    #about-us{
+        height: 350px;
+    }
+
     #about-us-text>h2 {
         font-size: 30px;
         
@@ -250,8 +254,53 @@ footer>.homebond>img {
     #logo {
         width: 25%;
         height: 22%;
-        position: relative;
-        margin-top: 3%;
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    #header-image{
+        width: 200px;
+        height: 67px;
     }
     
+}
+
+/*For medium to small screen size of 900px and down*/
+@media screen and (max-width: 900px){
+
+#menu {
+    margin-top: 1%;
+    padding-top: 0;
+    line-height: 25px
+}
+#menu > li{
+    float: right;
+    font-size: 40%;
+    letter-spacing: 3px;
+}
+
+.header a{
+    width: auto;
+    height: aut;
+    
+}
+
+}
+/*For small screen size of 700px and down*/
+@media screen and (max-width: 700px){
+    
+    
+
+    .header img{
+        position: absolute;
+        right: 0;
+        bottom: 0; 
+        width: 150px;
+        height: 51px;
+    }
+   
+
+   
+
+
 }
