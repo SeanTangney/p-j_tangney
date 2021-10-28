@@ -258,7 +258,7 @@ footer>.homebond>img {
         margin-top: 4%;
     }
 
-    #header-image{
+    #header_image{
         width: 200px;
         height: 67px;
     }
@@ -284,23 +284,76 @@ footer>.homebond>img {
     height: aut;
     
 }
+#header_image{
+    right: 0;
+    bottom: 0; 
+    width: 150px;
+    height: 50px;
+} 
 
 }
 /*For small screen size of 700px and down*/
 @media screen and (max-width: 700px){
-    
-    
+    #menu{
+        width: 100%;
+        
+        /*margin-left: 6%;
+        margin-right: 34%; */
+    }
+    #menu li{
+        margin-top: 4%;
+        align-content: center;
+        letter-spacing: 2px;
+        font-size: 60%;
+        padding: 0 5% 0;
+        
+        
 
-    .header img{
-        position: absolute;
+    }
+
+    #header_image{
         right: 0;
         bottom: 0; 
-        width: 150px;
-        height: 51px;
+        width: 35%;
+        height: 12%;
+        margin-right: 32.5%;
+        margin-left: 32.5%;
+    } 
+   
+    #about-us{
+        height: 200px;
+    }
+
+    #about-us-text>h2 {
+        font-size: 20px;
+        
+    }
+    
+    #about-us-text>p {
+        font-size: 10px;
+        padding-top: 2%;
+    }
+
+    #logo {
+        width: 33%;
+        height: 22%;
+        position: absolute;
+        margin-top: 4%;
+        padding-left: 10%;
+    }
+    #full-about-us{
+        padding:10% 0 15%;
     }
    
-
-   
-
+    
+    footer>.homebond>img {
+        width: 30%;
+        height: 30%;
+    
+    }
+    .social{
+        margin-right: 3px;
+        font-size: 40%;
+    }
 
 }
