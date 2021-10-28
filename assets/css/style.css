@@ -122,41 +122,44 @@ hr {
 /*About us section*/
 #about-us {
     height: 550px;
-    width: 50%;
-    margin-top: 0;
+    width: 33%;
+    margin-top: 3%;
     background-color: #FBFAF3;
     float: right;
-    margin-right: 70px;
+    margin-right: 10%;
 }
 
-#about-us-text>h2 {
+#about-us-text > h2 {
     color: #0c0d7d;
     text-transform: uppercase;
     text-align: right;
     margin-top: 30px;
-    margin-right: 15%;
-    font-size: 30px;
+    margin-right: 10%;
+    font-size: 50px;
+    border-bottom: 2px solid #3953a4;
 }
 
-#about-us-text>p {
+#about-us-text > p {
     margin-top: 15px;
     color: #3953a4;
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 25px;
+    margin-right: 6%;
     padding: 20px;
     text-align: right;
 }
 
 #logo {
     width: 33%;
-    height: 550px;
+    height: 30%;
     float: left;
     padding: 30px 100px;
+    margin-left: 3%;
 }
 
 #logo > img {
     width: 90%;
     height: 80%;
+    
 }
 
 /*Footer*/
@@ -166,11 +169,11 @@ footer {
     background: #3954a4d2;
     margin-top: 1.5rem;
 }
-footer > ul {
+footer > .social > ul {
     padding: 1.25rem;
     text-align: center;
 }
-footer > ul > li {
+footer > .social > ul > li {
     list-style-type: none;
     display: inline-block;
     margin: 0.25rem 0.75rem;
@@ -196,4 +199,19 @@ body {
 footer {
     flex-shrink: 0;
 }
+/* #homebond{
+    width: 20%;
+    
+} */
+footer > .social > .homebond > img{
+    width: 5%;
+    height: 5%;
+    float: right;
+    padding: 0;
+    margin :20px;
+    
+}
 
+/*Media Queries*/
+
+/*For large to medium screen size of 1200px or less*/
