@@ -33,12 +33,12 @@ header {
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 60%;
     letter-spacing: 4px;
     margin-right: 70px;
 }
 
-#menu li {
+#menu>li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
@@ -230,23 +230,23 @@ footer>.homebond>img {
 /*Media Queries*/
 
 /*For large to medium screen size of 1200px or less*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
 
 
-    #menu li {
+    #menu{
         font-size: 50%;
         letter-spacing: 3px;
     }
-   
-    #about-us{
+
+    #about-us {
         height: 350px;
     }
 
     #about-us-text>h2 {
         font-size: 30px;
-        
+
     }
-    
+
     #about-us-text>p {
         font-size: 15px;
     }
@@ -258,77 +258,81 @@ footer>.homebond>img {
         margin-top: 4%;
     }
 
-    #header_image{
+    #header_image {
         width: 200px;
         height: 67px;
     }
-    
+
 }
 
 /*For medium to small screen size of 900px and down*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
-#menu {
-    margin-top: 1%;
-    padding-top: 0;
-    line-height: 25px
-}
-#menu > li{
-    float: right;
-    font-size: 40%;
-    letter-spacing: 3px;
-}
-
-.header a{
-    width: auto;
-    height: aut;
-    
-}
-#header_image{
-    right: 0;
-    bottom: 0; 
-    width: 150px;
-    height: 50px;
-} 
-
-}
-/*For small screen size of 700px and down*/
-@media screen and (max-width: 700px){
-    #menu{
-        width: 100%;
-        
-        /*margin-left: 6%;
-        margin-right: 34%; */
-    }
-    #menu li{
-        margin-top: 4%;
+    #menu {
+        margin-top: 0;
+        padding-top: 0;
+        line-height: 25px;
+        font-size: 40%;
         align-content: center;
-        letter-spacing: 2px;
-        font-size: 60%;
-        padding: 0 5% 0;
-        
-        
+        align-items: center;
+        justify-content: center; 
+    }
+
+    #list-items{
+        margin: 0;
+    }
+    header{
+        height: 12%;
+    }
+    .header a {
+        width: auto;
+        height: auto;
 
     }
 
-    #header_image{
+    #header_image {
         right: 0;
-        bottom: 0; 
-        width: 35%;
-        height: 12%;
-        margin-right: 32.5%;
-        margin-left: 32.5%;
-    } 
-   
-    #about-us{
+        bottom: 0;
+        width: 33%;
+        height: 30%;
+        padding-left: 33%;
+        padding-right: 33%;
+        margin: 2% 0;
+    }
+
+}
+
+/*For small screen size of 700px and down*/
+@media screen and (max-width: 700px) {
+    
+    #nav-bar{
+        width:100%;
+        padding-left: 16%;
+        padding-right: 16%;
+        margin: 0;
+    }
+    #menu>li{
+        right: 0;
+        bottom: 0;
+        width: 66%;
+        height: 30%;
+        padding:0;
+        margin:0;
+    }
+    #menu>li{
+        font-size: 40%;
+        word-spacing: 1%; 
+    }
+
+    #about-us {
         height: 200px;
     }
 
     #about-us-text>h2 {
         font-size: 20px;
-        
+
     }
-    
+
     #about-us-text>p {
         font-size: 10px;
         padding-top: 2%;
@@ -341,19 +345,73 @@ footer>.homebond>img {
         margin-top: 4%;
         padding-left: 10%;
     }
-    #full-about-us{
-        padding:10% 0 15%;
+
+    #full-about-us {
+        padding: 10% 0 15%;
     }
-   
-    
+
+
     footer>.homebond>img {
         width: 30%;
         height: 30%;
-    
+
     }
-    .social{
+
+    .social {
         margin-right: 3px;
         font-size: 40%;
     }
 
+}
+/*For small screen size of 500px and down*/
+@media screen and (max-width: 500px){
+    .slogan-box {
+        max-width: 200px;
+        height: 220px;
+        
+    }
+    
+    .slogan-box>h2 {
+        font-size: 16px;
+    }
+    
+    .slogan-box>ul>h3 {
+        font-size: 7px;
+    }
+    
+    .slogan-box>ul>li {
+        font-size: 10px;
+    }
+
+    #about-us {
+        height: 200px;
+    }
+
+    #about-us-text>h2 {
+        font-size: 15px;
+
+    }
+
+    #about-us-text>p {
+        font-size: 8px;
+        padding-top: 2%;
+    }
+    
+    #logo {
+        width: 40%;
+        height: 28%;
+    }
+    
+    #logo>img {
+        width: 100%;
+        height: 80%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .social {
+        width: 100px;
+        margin-right: 4px;
+        font-size: 30%;
+    }
 }
