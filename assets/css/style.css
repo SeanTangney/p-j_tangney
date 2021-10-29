@@ -18,7 +18,7 @@ header {
     background: #FBFAF390;
     z-index: 1000;
     width: 100%;
-    height: 150px;
+    height: 18%;
 
 }
 
@@ -36,11 +36,18 @@ header {
     font-size: 60%;
     letter-spacing: 4px;
     margin-right: 70px;
+    height: 45px;
+    width:100%;
+}
+#menu>ul{
+    width:100%;
+    height: 12%;
 }
 
 #menu>li {
     float: right;
     list-style-type: none;
+    height:100%;
     margin-right: 25px;
     margin-top: 50px;
     color: #282872;
@@ -269,20 +276,18 @@ footer>.homebond>img {
 @media screen and (max-width: 900px) {
 
     #menu {
-        margin-top: 0;
-        padding-top: 0;
-        line-height: 25px;
         font-size: 40%;
+        width: max-content;
+        margin-right:auto;
+        margin-left:auto; 
         align-content: center;
-        align-items: center;
-        justify-content: center; 
     }
 
-    #list-items{
-        margin: 0;
+    #menu>li{
+        margin-top: 10px;
     }
     header{
-        height: 12%;
+        height: 20%;
     }
     .header a {
         width: auto;
@@ -305,25 +310,25 @@ footer>.homebond>img {
 /*For small screen size of 700px and down*/
 @media screen and (max-width: 700px) {
     
+    header{
+        height: 18%;
+    }
     #nav-bar{
-        width:100%;
-        padding-left: 16%;
-        padding-right: 16%;
-        margin: 0;
+        width: 100%;
+        
     }
-    #menu>li{
-        right: 0;
-        bottom: 0;
-        width: 66%;
-        height: 30%;
-        padding:0;
-        margin:0;
-    }
-    #menu>li{
+    #menu {
         font-size: 40%;
-        word-spacing: 1%; 
+        width: max-content;
+        margin-right:auto;
+        margin-left:auto;  
+        align-content: center;      
+ 
     }
 
+    #menu>li{
+        margin-top: 10px;
+    }
     #about-us {
         height: 200px;
     }
@@ -363,8 +368,30 @@ footer>.homebond>img {
     }
 
 }
+
+/*For small screen size of 600px and down*/
+@media screen and (max-width: 600px){
+    header{
+        height: 16%;
+    }
+    #list-items{
+        margin-right:15px;
+    }
+
+}
+
 /*For small screen size of 500px and down*/
 @media screen and (max-width: 500px){
+    
+    header{
+        height: 14%;
+    }
+
+    #header_image{
+        min-height: 38px;
+        min-width: 150px;
+    }
+    
     .slogan-box {
         max-width: 200px;
         height: 220px;
@@ -385,6 +412,7 @@ footer>.homebond>img {
 
     #about-us {
         height: 200px;
+        width: 40%;
     }
 
     #about-us-text>h2 {
@@ -394,12 +422,12 @@ footer>.homebond>img {
 
     #about-us-text>p {
         font-size: 8px;
-        padding-top: 2%;
+        padding-top: 3%;
     }
     
     #logo {
-        width: 40%;
-        height: 28%;
+        width: 30%;
+        height: 20%;
     }
     
     #logo>img {
@@ -409,9 +437,16 @@ footer>.homebond>img {
     .footer{
         width: 100%;
     }
-    .social {
-        width: 100px;
-        margin-right: 4px;
-        font-size: 30%;
+    .social{
+        font-size: 40%;
+        margin-right: 1px;
     }
+    .footer>.social>ul {
+        width: 200px;
+        height: 69px;
+        
+        
+    }
+    
+
 }
