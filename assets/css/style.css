@@ -374,6 +374,14 @@ footer>.homebond>img {
     header{
         height: 16%;
     }
+    .header>img{
+        width:100%;
+
+    }
+    #header_image{
+        width:100;
+    }
+
     #list-items{
         margin-right:15px;
     }
