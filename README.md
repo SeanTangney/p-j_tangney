@@ -17,9 +17,20 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
     2. As a First Time Visitor, I want to be able to easily navigate through the site to find content.
     3. As a First Time Visitor, I want to be able to find contact details for the company.
  
- -  ### Returning Visitor Goals
+-   ### Returning Visitor Goals
     1. As a Returning Visitor, I want to find the best way to get in contact with the company.
 
 -   ### Frequent User Goals
     1. As a Frequent User, I want to check the gallery to see updates on current and past projects.
+    2. As a Frequent User, I want to contact the company throught thhe integrated contact for on the Contact Us Page.
 
+## Responsiveness 
+### I used [Am I Responsive](http://ami.responsivedesign.is/#) to make sure my site is responsive.
+
+![am_i_responsive](https://user-images.githubusercontent.com/11293532/140610187-195831a0-961b-4f1f-919c-eb06275ea263.png)
+
+## Testing
+-  I tested the website on Google Chrome, Internet Explore, Safari and Edge.
+-  I tested to make sure the website links and navigation are working correctly.
+-  the website was tested on iPhone 8, X and 11 pro, iPad, Macbook, and Desktop.
+-  I asked friends to critique the site to ensure it was working from their device and to ensure it was a user friendly experience for them.
