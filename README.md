@@ -17,9 +17,9 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
     2. As a First Time Visitor, I want to be able to easily navigate through the site to find content.
     3. As a First Time Visitor, I want to be able to find contact details for the company.
  
- -  ### Returning Visitor Goals
+-   ### Returning Visitor Goals
     1. As a Returning Visitor, I want to find the best way to get in contact with the company.
 
 -   ### Frequent User Goals
     1. As a Frequent User, I want to check the gallery to see updates on current and past projects.
-
+    2. As a Frequent User, I want to contact the company throught thhe integrated contact for on the Contact Us Page.
