@@ -226,7 +226,7 @@ footer>.homebond {
     background-color: #3953a4;
 }
 
-footer>.homebond>img {
+footer>.homebond>a>img {
     width: 20%;
     height: 20%;
     padding: 0;
@@ -261,8 +261,13 @@ footer>.homebond>img {
     #logo {
         width: 25%;
         height: 22%;
-        position: absolute;
         margin-top: 4%;
+    }
+    #logo>img {
+        width: 90%;
+        height: 80%;
+        
+    
     }
 
     #header_image {
@@ -350,13 +355,18 @@ footer>.homebond>img {
         margin-top: 4%;
         padding-left: 10%;
     }
+    #logo>img {
+        width: 90%;
+        height: 80%;
+    
+    }
 
     #full-about-us {
         padding: 10% 0 15%;
     }
 
 
-    footer>.homebond>img {
+    footer>.homebond>a>img {
         width: 30%;
         height: 30%;
 
@@ -374,14 +384,6 @@ footer>.homebond>img {
     header{
         height: 16%;
     }
-    .header>img{
-        width:100%;
-
-    }
-    #header_image{
-        width:100;
-    }
-
     #list-items{
         margin-right:15px;
     }
@@ -392,12 +394,19 @@ footer>.homebond>img {
 @media screen and (max-width: 500px){
     
     header{
-        height: 14%;
+        height: 13%;
     }
 
     #header_image{
-        min-height: 38px;
-        min-width: 150px;
+        width:40%;
+        height:30%;
+    }
+    #contact-us{
+        margin-right: 0;
+    }
+    
+    #nav-bar{
+        width:100%;
     }
     
     .slogan-box {
@@ -411,7 +420,7 @@ footer>.homebond>img {
     }
     
     .slogan-box>ul>h3 {
-        font-size: 7px;
+        font-size: 10px;
     }
     
     .slogan-box>ul>li {
@@ -432,7 +441,7 @@ footer>.homebond>img {
         font-size: 8px;
         padding-top: 3%;
     }
-    
+     
     #logo {
         width: 30%;
         height: 20%;
