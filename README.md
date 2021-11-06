@@ -23,3 +23,7 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 -   ### Frequent User Goals
     1. As a Frequent User, I want to check the gallery to see updates on current and past projects.
     2. As a Frequent User, I want to contact the company throught thhe integrated contact for on the Contact Us Page.
+
+## Responsiveness 
+I used [Am I Responsive site](https://github.com/) to make sure my site is responsive.
+![am_i_responsive](https://user-images.githubusercontent.com/11293532/140610187-195831a0-961b-4f1f-919c-eb06275ea263.png)
