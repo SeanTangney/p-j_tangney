@@ -25,5 +25,12 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
     2. As a Frequent User, I want to contact the company throught thhe integrated contact for on the Contact Us Page.
 
 ## Responsiveness 
-I used [Am I Responsive site](https://github.com/) to make sure my site is responsive.
+### I used [Am I Responsive](http://ami.responsivedesign.is/#) to make sure my site is responsive.
+
 ![am_i_responsive](https://user-images.githubusercontent.com/11293532/140610187-195831a0-961b-4f1f-919c-eb06275ea263.png)
+
+## Testing
+-  I tested the website on Google Chrome, Internet Explore, Safari and Edge.
+-  I tested to make sure the website links and navigation are working correctly.
+-  the website was tested on iPhone 8, X and 11 pro, iPad, Macbook, and Desktop.
+-  I asked friends to critique the site to ensure it was working from their device and to ensure it was a user friendly experience for them.
