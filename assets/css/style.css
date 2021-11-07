@@ -302,7 +302,6 @@ footer>.homebond>a>img {
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
 }  
 
 .flex-child:first-child {
@@ -358,6 +357,25 @@ footer>.homebond>a>img {
 .contact-us-button:hover{
     background-color: #fafafa;
     color: #0c0d7d;
+}
+
+/*Contact us directly section*/
+
+.flex-container2{
+    display: flex;
+}
+
+.container2-child{
+    flex: 1;
+    height: fit-content;
+}
+.container2-child:first-child{
+    margin-right:20px
+}
+.container2-child > img{
+    width: 50%;
+    height: auto;
+    margin: 0 25%;
 }
 
 
