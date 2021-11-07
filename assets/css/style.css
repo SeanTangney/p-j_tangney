@@ -368,6 +368,7 @@ footer>.homebond>a>img {
 .container2-child{
     flex: 1;
     height: fit-content;
+    margin-top: 10%;
 }
 .container2-child:first-child{
     margin-right:20px
@@ -378,7 +379,19 @@ footer>.homebond>a>img {
     margin: 0 25%;
 }
 
-
+.address > img{
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin: 5% 25%;
+}
+.map > iframe{
+    border: 4px solid #3953a4;
+    border-radius: 5px;
+    width: 40%;
+    height: 350px;
+    margin: 0 30%;
+}
 
 /*Media Queries*/
 
