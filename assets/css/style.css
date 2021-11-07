@@ -236,6 +236,9 @@ footer>.homebond>a>img {
 }
 
 /*Gallery*/
+.body{
+    background-color: #d3d3d3;
+}
 #gallery-photos {
     clear: both;
     line-height: 0;
@@ -248,7 +251,7 @@ footer>.homebond>a>img {
 }
 #gallery-header {
     text-align: center;
-    background-color: #FBFAF3;
+    background-color: #fbfaf3;
     padding-bottom: 1%;
     border-bottom: 2px double #0c0d7d  ;
     z-index: 1000;
