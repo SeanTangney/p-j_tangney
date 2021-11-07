@@ -250,7 +250,7 @@ footer>.homebond>a>img {
     text-align: center;
     background-color: #FBFAF3;
     padding-bottom: 1%;
-    border-bottom: #0c0d7d 2px solid;
+    border-bottom: 2px double #0c0d7d  ;
     z-index: 1000;
     width: 100%;
     height: 18%;
