@@ -413,6 +413,10 @@ footer>.homebond>a>img {
         letter-spacing: 3px;
     }
 
+    #full-about-us{
+        margin: 54% 0;
+        display:block;
+    }
     #about-us {
         height: 350px;
     }
