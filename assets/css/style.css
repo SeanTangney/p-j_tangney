@@ -88,9 +88,11 @@ hr {
 
 #hero-image {
     background: url('../images/pexels-thirdman-5582597.jpg') no-repeat center center;
-    height: 900px;
+    height: 100%;
     background-size: cover;
-    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*Slogan box*/
@@ -128,6 +130,10 @@ hr {
 }
 
 /*About us section*/
+#full-about-us{
+    height: 100%;
+    margin: 10% 0;
+}
 #about-us {
     height: 550px;
     width: 33%;
@@ -603,6 +609,7 @@ footer>.homebond>a>img {
     .slogan-box {
         max-width: 200px;
         height: 220px;
+        margin: 44% 0 0 6%;
         
     }
     
