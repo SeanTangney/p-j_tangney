@@ -46,7 +46,9 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 ### Contact-Us Wireframe
 ![contact-us-wireframe](https://user-images.githubusercontent.com/11293532/141492936-28fca74e-be44-4d8a-a203-2c01c53766c6.png)
 
-
+## Features
+    - Responsive on all devices
+    - Has interactive features
 ## Responsiveness 
 ### I used [Am I Responsive](http://ami.responsivedesign.is/#) to make sure my site is responsive.
 
@@ -92,7 +94,7 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 
 ## Further Testing
 
--  I tested the website on Google Chrome, Internet Explore, Safari and Edge.
+-  I tested the website on Google Chrome, Internet Explore, Firefox, Safari and Edge.
 -  I tested to make sure the website links and navigation are working correctly.
 -  the website was tested on iPhone 8, X and 11 pro, iPad, Macbook, and Desktop.
 -  I asked friends to critique the site to ensure it was working from their device and to ensure it was a user friendly experience for them.
@@ -169,12 +171,11 @@ You should now have a copy of the original repository in your GitHub account.
     - All content was written by the developer.
     - Colours were chosen to match this companys existing colour scheme.
     - Some principles learned in the [Love Running Project](https://seantangney.github.io/Love_running/) were used here.
+    - Flex and Float principles were learned from [CoderCoder](https://coder-coder.com/display-divs-side-by-side/)
 3. Media
     - All images used (except for homebond image) belong to the Pat and Joe Tangney Building Contractord Ltd.
     - The homebond image used was taken from [here](https://www.clipartmax.com/png/middle/178-1788043_alternative-homebond-logo.png). All construction businesses that work in conjuction with homebond have a right to display the homebond logo.
-
+    - Social media icons used in the footer are from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=1)
 ## Akcknowlegements
-    -Tutor support at Code Institute for their help and guidance.
-    -My mentor for continuous helpful feedback.
-
-
+    1. Tutor support at Code Institute for their help and guidance.
+    2. My mentor for continuous helpful feedback.

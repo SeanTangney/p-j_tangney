@@ -6,7 +6,7 @@
     padding: 0;
     border: none;
 }
-
+/*Font from google fonts*/
 body {
     background-color: #FBFAF3;
     font-family: DM Sans, Noto Sans;
@@ -22,7 +22,7 @@ header {
     height: 18%;
 
 }
-
+/*Header image belongs to Pat and Joe Tangney Building Contractors Ltd.*/
 #header_image {
     float: left;
     padding: 5px;
@@ -78,7 +78,7 @@ hr {
     width: 100%;
 }
 
-/*hero image from pexels https://www.pexels.com/photo/person-holding-a-pencil-and-a-ruler-5582597/*/
+/*Hero image from pexels https://www.pexels.com/photo/person-holding-a-pencil-and-a-ruler-5582597/*/
 #hero-outer {
     height: 920px;
     width: 100%;
@@ -162,7 +162,7 @@ hr {
     padding: 20px;
     text-align: right;
 }
-
+/*Logo belongs to Pat and Joe Tangney Builing Contractors Ltd*/
 #logo {
     width: 33%;
     height: 30%;
@@ -183,7 +183,7 @@ footer {
     background-color: #3953a4;
     margin-top: 1.5rem;
 }
-
+/*Social media icons used are from Font Awesome "https://fontawesome.com/v5.15/icons?d=gallery&p=1"*/
 footer>.social {
     width: 33%;
     float: left;
@@ -224,6 +224,7 @@ footer {
     flex-shrink: 0;
     max-width: 100%;
 }
+/*Homebond logo belongs to the company "Homebond" https://www.homebond.ie/*/
 
 footer>.homebond {
     width: 33%;
@@ -240,6 +241,7 @@ footer>.homebond>a>img {
 }
 
 /*Gallery*/
+/*All gallery photos belong to Pat and Joe Tangney Building Contractor Ltd.*/
 .body {
     background-color: #d3d3d3;
 }
@@ -304,7 +306,7 @@ footer>.homebond>a>img {
     border-bottom: 2px dotted #282872;
     width: 50%;
 }
-
+/*Flex box principle learned from Coder Coder https://coder-coder.com/display-divs-side-by-side/ */
 .flex-container {
     display: flex;
 }
@@ -319,7 +321,7 @@ footer>.homebond>a>img {
 
 /*Form section*/
 
-
+/*Contact us form done using principles from the love running project*/
 .contact-us-form {
     margin: 10%;
     color: #fff;
@@ -397,6 +399,7 @@ footer>.homebond>a>img {
     margin-top: 5%;
     margin: 5% 25%;
 }
+/*Map iframe taken from google maps*/
 
 .map {
     height: auto
@@ -414,7 +417,6 @@ footer>.homebond>a>img {
 
 /*For large to medium screen size of 1200px or less*/
 @media screen and (max-width: 1200px) {
-
 
     #menu {
         font-size: 50%;
@@ -447,15 +449,12 @@ footer>.homebond>a>img {
     #logo>img {
         width: 90%;
         height: 80%;
-
-
     }
 
     #header_image {
         width: 200px;
         height: 67px;
     }
-
 }
 
 /*For medium to small screen size of 900px and down*/
@@ -480,7 +479,6 @@ footer>.homebond>a>img {
     .header a {
         width: auto;
         height: auto;
-
     }
 
     #header_image {
@@ -516,15 +514,12 @@ footer>.homebond>a>img {
         width: 30%;
         height: auto;
         margin: 0 35%;
-
     }
 
     .contact-us-form {
         width: 70%;
-        ;
         margin: 0 10%;
         left: 0;
-
     }
 
 
@@ -539,7 +534,6 @@ footer>.homebond>a>img {
 
     #nav-bar {
         width: 100%;
-
     }
 
     #menu {
@@ -548,7 +542,6 @@ footer>.homebond>a>img {
         margin-right: auto;
         margin-left: auto;
         align-content: center;
-
     }
 
     #menu>li {
@@ -561,7 +554,6 @@ footer>.homebond>a>img {
 
     #about-us-text>h2 {
         font-size: 20px;
-
     }
 
     #about-us-text>p {
@@ -580,25 +572,21 @@ footer>.homebond>a>img {
     #logo>img {
         width: 90%;
         height: 80%;
-
     }
 
     #full-about-us {
         padding: 10% 0 15%;
     }
 
-
     footer>.homebond>a>img {
         width: 30%;
         height: 30%;
-
     }
 
     .social {
         margin-right: 3px;
         font-size: 40%;
     }
-
 }
 
 /*For small screen size of 600px and down*/
@@ -638,7 +626,6 @@ footer>.homebond>a>img {
         max-width: 200px;
         height: 220px;
         margin: 44% 0 0 6%;
-
     }
 
     .slogan-box>h2 {
@@ -660,7 +647,6 @@ footer>.homebond>a>img {
 
     #about-us-text>h2 {
         font-size: 15px;
-
     }
 
     #about-us-text>p {
@@ -696,13 +682,9 @@ footer>.homebond>a>img {
         width: 200px;
         height: 60px;
         padding-bottom: 0;
-
-
     }
 
     #gallery-photos {
         column-count: 2;
     }
-
-
 }
