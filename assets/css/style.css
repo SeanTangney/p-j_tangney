@@ -79,6 +79,7 @@ hr {
 }
 
 /*Hero image from pexels https://www.pexels.com/photo/person-holding-a-pencil-and-a-ruler-5582597/*/
+/*Parallax effect learney from w3 Schools https://www.w3schools.com/howto/howto_css_parallax.asp*/
 #hero-outer {
     height: 920px;
     width: 100%;

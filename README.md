@@ -186,8 +186,9 @@ You should now have a copy of the original repository in your GitHub account.
 2. Content
     - All content was written by the developer.
     - Colours were chosen to match this companys existing colour scheme.
-    - Some principles learned in the [Love Running Project](https://seantangney.github.io/Love_running/) were used here.
+    - Some principles learned in the [Love Running Project](https://seantangney.github.io/Love_running/) were used on this site.
     - Flex and Float principles were learned from [CoderCoder](https://coder-coder.com/display-divs-side-by-side/)
+    - Parallax effect on hero image learned from [w3 Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
 3. Media
     - All images used (except for homebond image) belong to the Pat and Joe Tangney Building Contractord Ltd.
     - The homebond image used was taken from [here](https://www.clipartmax.com/png/middle/178-1788043_alternative-homebond-logo.png). All construction businesses that work in conjuction with homebond have a right to display the homebond logo.
