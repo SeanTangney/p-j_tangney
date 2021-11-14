@@ -9,7 +9,7 @@
 /*Font from google fonts*/
 body {
     background-color: #FBFAF3;
-    font-family: DM Sans, Noto Sans;
+    font-family: "DM Sans", "Noto Sans";
     font-weight: 300;
 }
 
@@ -621,7 +621,7 @@ footer>.homebond>a>img {
 
     .slogan-box {
         max-width: 200px;
-        height: 220px;
+        height: 240px;
         margin: 44% 0 0 6%;
     }
 
@@ -684,4 +684,13 @@ footer>.homebond>a>img {
     #gallery-photos {
         column-count: 2;
     }
+}
+
+/*For small screen size of 500px and down*/
+@media screen and (max-width: 500px){
+
+.slogan-box{
+width: 60%;
+margin: 44% 0 6%;
+}
 }

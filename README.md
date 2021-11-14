@@ -4,13 +4,24 @@
 
 [Link to the deployed site](https://seantangney.github.io/p-j_tangney/)
 
+## Some pictures of the finished Website
+
+![homepage](https://user-images.githubusercontent.com/11293532/141699063-8bb7dce3-c669-475d-a88d-4b0002577a22.png)
+![homepage2](https://user-images.githubusercontent.com/11293532/141699064-1ae3ca96-8104-446e-8fd2-f5877057bfe2.png)
+![gallery](https://user-images.githubusercontent.com/11293532/141699068-418303c7-d04a-4fdb-9e96-0bc8f59976e5.png)
+![contact us](https://user-images.githubusercontent.com/11293532/141699065-40f43bc1-92c1-4388-acd7-0e92afabe1cb.png)
+
+
 ## Purpose
 Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to see what the company is about, show people some of our past and current projects and to provide details of how to contact the company if they wish hire them. There is also links to the companys social media.
 
+## Target Audience
+The target audience for this website is potential clients and people who want to check in on the progress of work on particular jobs.
+
 ## The features i wanted my project to have are
-    * Look clean and utilise the companies existing colour scheme
-    * To make the site easy to navigate through the "nav bar" and easy to read
-    * Look professional to any potential clients
+-   Look clean and utilise the companies existing colour scheme
+-   To make the site easy to navigate through the "nav bar" and easy to read
+-   Look professional to any potential clients
 
 
 ## User Experience (UX)
@@ -30,11 +41,11 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 
 ## Design
 ### Colors
-    -The main colours used were blue, grey and white. These are the primary colours pf the company.
+-   The main colours used were blue, grey and white. These are the primary colours pf the company.
 ### Fonts
-    - The primary font used was Dm Sans with a fallback of Noto Sans in case the font isnt being imported into the site correctly. Dm Sans is an attractive font.
+-   The primary font used was Dm Sans with a fallback of Noto Sans in case the font isnt being imported into the site correctly. Dm Sans is an attractive font.
 ### Imagery
-    - The large hero image is relavent to the company's line of work. It stands out while not taking away from the content on the index.
+-   The large hero image is relavent to the company's line of work. It stands out while not taking away from the content on the index.
 
 ## Wireframes
 ### Home Page Wireframe
@@ -47,18 +58,15 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 ![contact-us-wireframe](https://user-images.githubusercontent.com/11293532/141492936-28fca74e-be44-4d8a-a203-2c01c53766c6.png)
 
 ## Features
-    - Responsive on all devices
-    - Has interactive features
-## Responsiveness 
-### I used [Am I Responsive](http://ami.responsivedesign.is/#) to make sure my site is responsive.
-
-![am_i_responsive](https://user-images.githubusercontent.com/11293532/140610187-195831a0-961b-4f1f-919c-eb06275ea263.png)
+### Responsive on all devices - I used Am I Responsive to check this along with checking on a variety of devices myself.
+![Am I Responsive](https://user-images.githubusercontent.com/11293532/141697668-85e1821a-74d4-492f-a2bf-f15b043915d3.png)
+### Has interactive features
 
 ## Technologies Used
 
 ### Languages Used
-    - HTML5
-    - CSS3
+-   HTML5
+-   CSS3
 
 ### Frameworks, Libraries & Programs Used
 
@@ -89,14 +97,16 @@ Pat & Joe Tangney Building Contractors Ltd. is a website designed for people to 
 
 ## Testing
 
--validate markup
--validate css
+-   I used [W3C Markup Validator](https://validator.w3.org/) to validate my html and after some fixes i got the result "Document checking completed. No errors or warnings to show." on each page of the site.
+-   I used [W3 Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_uri) to validate my CSS and got the result "Congratulations! No Error Found." when checked on each page of the site. I also double checked by pasting the whole css document into the "Validate by input box" and got the same result.
+-   I used lighthouse in developer tools to test the site. This was the result i got
 
+![lighthouse](https://user-images.githubusercontent.com/11293532/141698806-c7f3a2e6-e559-4389-a13f-b97b3fec9c13.png)
 ## Further Testing
 
 -  I tested the website on Google Chrome, Internet Explore, Firefox, Safari and Edge.
 -  I tested to make sure the website links and navigation are working correctly.
--  the website was tested on iPhone 8, X and 11 pro, iPad, Macbook, and Desktop.
+-  The website was tested on iPhone 8, X and 11 pro, iPad, Macbook, and Desktop by me.
 -  I asked friends to critique the site to ensure it was working from their device and to ensure it was a user friendly experience for them.
 
 ## Testing User Stories from User Experience (UX) Section
