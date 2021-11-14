@@ -61,6 +61,12 @@ The target audience for this website is potential clients and people who want to
 ### Responsive on all devices - I used Am I Responsive to check this along with checking on a variety of devices myself.
 ![Am I Responsive](https://user-images.githubusercontent.com/11293532/141697668-85e1821a-74d4-492f-a2bf-f15b043915d3.png)
 ### Has interactive features
+-   Navigation bar there is a hover feature to better display which menu icon you are about to select.
+-   The company logo in the header is clickable to bring you back to the homepage.
+-   I used a parralax feature with the hero image to make scrolling more aestetically pleasing. Learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)
+-   The HomeBond logo in the footer has a link that takes you to the homebond website.
+-   The contact-us form has got hover features on the text input boxes along with a hover feature on the submit button.
+-   The google map iframe can be clicked on to take you to a new tab to explore the map in more detail.
 
 ## Technologies Used
 
