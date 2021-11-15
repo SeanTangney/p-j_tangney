@@ -423,35 +423,37 @@ footer>.homebond>a>img {
         font-size: 50%;
         letter-spacing: 3px;
     }
-
-    #full-about-us {
-        margin: 54% 0;
-    }
-
-    #about-us {
-        height: 350px;
-    }
-
     #about-us-text>h2 {
         font-size: 30px;
-
     }
 
     #about-us-text>p {
         font-size: 15px;
     }
 
-    #logo {
-        width: 25%;
-        height: 22%;
-        margin-top: 4%;
+    #full-about-us{
+        margin: 10% 10%;
+    }
+    #logo{
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: 5% 15%;
+        padding: 0;
+    }
+    #about-us{
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: 5% 15%;
+    }
+    #about-us-text>h2 {
+        text-align: center;
     }
 
-    #logo>img {
-        width: 90%;
-        height: 80%;
+    #about-us-text>p {
+       text-align: center;
     }
-
     #header_image {
         width: 200px;
         height: 67px;
@@ -522,8 +524,27 @@ footer>.homebond>a>img {
         margin: 0 10%;
         left: 0;
     }
+    /* #full-about-us{
+        margin: 10% 10%;
+    }
+    #logo{
+        width: 70%;
+        display: block;
+        margin: 5% 15%;
+        padding: 0;
+    }
+    #about-us{
+        width: 70%;
+        display: block;
+        margin: 5% 15%;
+    }
+    #about-us-text>h2 {
+        text-align: center;
+    }
 
-
+    #about-us-text>p {
+       text-align: center;
+    } */
 }
 
 /*For small screen size of 700px and down*/
@@ -549,7 +570,7 @@ footer>.homebond>a>img {
         margin-top: 10px;
     }
 
-    #about-us {
+    /* #about-us {
         height: 200px;
     }
 
@@ -577,7 +598,7 @@ footer>.homebond>a>img {
 
     #full-about-us {
         padding: 10% 0 15%;
-    }
+    } */
 
     footer>.homebond>a>img {
         width: 30%;
@@ -638,7 +659,7 @@ footer>.homebond>a>img {
         font-size: 10px;
     }
 
-    #about-us {
+    /* #about-us {
         height: 200px;
         width: 40%;
     }
@@ -660,7 +681,7 @@ footer>.homebond>a>img {
     #logo>img {
         width: 100%;
         height: 80%;
-    }
+    } */
 
     .footer {
         width: 100%;
