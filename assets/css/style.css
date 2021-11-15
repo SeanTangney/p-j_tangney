@@ -389,10 +389,6 @@ footer>.homebond>a>img {
     margin-top: 10%;
 }
 
-.container2-child:first-child {
-    margin-right: 20px
-}
-
 .container2-child>img {
     width: 50%;
     height: auto;
@@ -527,8 +523,8 @@ footer>.homebond>a>img {
         margin: 0;
     }
     .contact-us-form {
-        width: 60%;
-        margin: 0 18%;
+        width: 50%;
+        margin: 0 20%;
         left: 0;
         position: relative;
         max-width: none;
