@@ -100,6 +100,9 @@ The target audience for this website is potential clients and people who want to
 8. [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create all of the wireframes during the design process.
 
+9. [Tinypng](https://tinypng.com/)
+    - This website was used to compress images for the website.
+
 
 ## Testing
 
@@ -156,8 +159,10 @@ The target audience for this website is potential clients and people who want to
 -   About us section getting squashed on smaller devices. Fixed by changing for the divs to line vertically
 -   Whitespace down the right-hand side of the gallery page. Issue was fixed by changing the margin from 1% all around on the gallery-title to 0% margin on left/right. This allowed the page to maintain 100% width rather than 102% width.
 
+
 ### Unresolved
 -   Whitespace down the right-hand side of the contact-us page. Unresolved to the point of fixing the source of the problem. Issue has been concealed by adding "overflow-x: hidden;" to the body in the style.css page. This was the advice of my tutor.
+-   I ran my gallery photos through an online compressor to reduce the file size, this did not significantly improve the performance of the gallery page.
 
 ## Deployment
 ### GitHub Pages
@@ -186,6 +191,10 @@ You should now have a copy of the original repository in your GitHub account.
 5. Change the current working directory to the location where you want the cloned directory to be made. 
 6. Type "Git Clone", and then paste the url you copied in step 3.
 7. Press enter, your local clone will be created.
+
+## Features I would like to implement
+-   I would like to add a [hamburger menu](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) to the website.
+-   I would like to add a feature that allows the user to individually select each gallery image and view it in a larger form.
 
 ## Credits
 1. Code
