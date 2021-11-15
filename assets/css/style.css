@@ -512,11 +512,19 @@ footer>.homebond>a>img {
         height: auto;
         margin: 0 35%;
     }
-
+    .flex-container .flex-child{
+        margin: 0;
+    }
+    .form-section{
+        width: 100%;
+        margin: 0;
+    }
     .contact-us-form {
-        width: 70%;
-        margin: 0 10%;
+        width: 60%;
+        margin: 0 18%;
         left: 0;
+        position: relative;
+        max-width: none;
     }
 }
 
@@ -632,6 +640,9 @@ footer>.homebond>a>img {
 
     #gallery-photos {
         column-count: 2;
+    }
+    .pat-number{
+        margin-left:30%;
     }
 }
 
