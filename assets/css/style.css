@@ -6,11 +6,17 @@
     padding: 0;
     border: none;
 }
+
+html {
+    overflow-x: hidden;
+}
+
 /*Font from google fonts*/
 body {
     background-color: #FBFAF3;
     font-family: "DM Sans", "Noto Sans";
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 /*header*/
@@ -215,6 +221,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .social {

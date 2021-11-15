@@ -154,9 +154,10 @@ The target audience for this website is potential clients and people who want to
 ## Bugs
 ## Resolved
 -   About us section getting squashed on smaller devices. Fixed by changing for the divs to line vertically
+-   Whitespace down the right-hand side of the gallery page. Issue was fixed by changing the margin from 1% all around on the gallery-title to 0% margin on left/right. This allowed the page to maintain 100% width rather than 102% width.
 
 ### Unresolved
--   Whitespace down the right-hand side of the gallery and contact-us page. 
+-   Whitespace down the right-hand side of the contact-us page. Unresolved to the point of fixing the source of the problem. Issue has been concealed by adding "overflow-x: hidden;" to the body in the style.css page. This was the advice of my tutor.
 
 ## Deployment
 ### GitHub Pages
