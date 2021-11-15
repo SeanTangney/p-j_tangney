@@ -272,7 +272,7 @@ footer>.homebond>a>img {
 #gallery-title {
     width: 100%;
     height: fit-content;
-    margin: 1%;
+    margin: 1% 0%;
 }
 
 #gallery-title>h2 {

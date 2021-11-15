@@ -151,6 +151,13 @@ The target audience for this website is potential clients and people who want to
 2. As a Frequent User, I want to contact the company throught thhe integrated contact for on the Contact Us Page.
     - A Frequent user will use this site as a way they know that they can get in contact with the company.
 
+## Bugs
+## Resolved
+-   About us section getting squashed on smaller devices. Fixed by changing for the divs to line vertically
+
+### Unresolved
+-   Whitespace down the right-hand side of the gallery and contact-us page. 
+
 ## Deployment
 ### GitHub Pages
 The project was deployed to GitHub using the following steps
